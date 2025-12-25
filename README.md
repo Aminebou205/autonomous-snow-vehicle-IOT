@@ -31,6 +31,16 @@ as snow and icy terrain conditions for mobility analysis.
    01_exploratory_data_analysis.ipynb
 4. The notebook automatically loads the dataset and computes mobility metrics.
 
+## How to run
+
+1. Clone repository
+2. Install dependencies
+   pip install -r requirements.txt
+3. Start the server
+   python3 app.py
+4. Subscribe to MQTT
+   mosquitto_sub -h localhost -t snow/data -v
+
 ## AWS Deployment
 
 The system was deployed on an AWS EC2 Free Tier Ubuntu instance to simulate cloud-based processing of autonomous vehicle mobility data. Python scripts were executed remotely on the server via SSH, enabling real-time streaming of CSV sensor telemetry to an MQTT broker. Data transmission was verified using Mosquitto subscribers, demonstrating how mobility monitoring can be performed in real robotic IoT systems. Deployment screenshots and verification outputs are provided in the docs/ folder.
