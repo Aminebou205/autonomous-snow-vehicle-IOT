@@ -13,13 +13,12 @@ mobility performance in snowy and low-traction environments.
 # Repository Structure
 - data      : Raw and processed datasets
 - notebooks   : Data analysis and modeling notebooks
-- dashboards  : Streamlit dashboard
-- models      : Saved models
 - docs       : Project report and documentation
 
-    data/
-  
-               └── snow_terrain_mobility_raw.csv
+ Dataset file:
+             
+              data/raw/snow_terrain_mobility_raw.csv
+
   ## Data Resources
 The project uses a public-style terrain mobility dataset containing IMU, wheel encoder,
 and temperature data. Although the dataset is adapted, low-traction behavior is interpreted
