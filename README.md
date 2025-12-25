@@ -33,9 +33,8 @@ as snow and icy terrain conditions for mobility analysis.
 
 ## AWS Deployment
 
-The project was deployed on an AWS EC2 Free Tier Ubuntu instance to simulate remote processing of vehicle mobility data. Python scripts were executed on the cloud server, demonstrating how mobility monitoring can operate in real robotic systems.
+The system was deployed on an AWS EC2 Free Tier Ubuntu instance to simulate cloud-based processing of autonomous vehicle mobility data. Python scripts were executed remotely on the server via SSH, enabling real-time streaming of CSV sensor telemetry to an MQTT broker. Data transmission was verified using Mosquitto subscribers, demonstrating how mobility monitoring can be performed in real robotic IoT systems. Deployment screenshots and verification outputs are provided in the docs/ folder.
 
-Screenshots and deployment notes are available in the docs/ folder.
 ## Deliverables
 
 ✔ Notebook analysis
