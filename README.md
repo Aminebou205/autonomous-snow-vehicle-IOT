@@ -31,7 +31,7 @@ as snow and icy terrain conditions for mobility analysis.
    01_exploratory_data_analysis.ipynb
 4. The notebook automatically loads the dataset and computes mobility metrics.
 
-## How to run
+## How to run app.py
 
 1. Clone repository
 2. Install dependencies
